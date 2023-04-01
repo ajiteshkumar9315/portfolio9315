@@ -1,0 +1,139 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.in-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.in-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.in-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.in-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.in-button{
+    width: 6rem;
+    height: 3rem;
+}
+
+.in-icon{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.in-icon>*{
+    transform:scale(0.5);
+}
+
+.in-icon>*:hover{
+    cursor: pointer;
+    transform: scale(0.7);
+}
+
+.in-right{
+    flex: 1;
+    position: relative;
+}
+
+.in-right>:nth-child(2){
+    transform: scale(0.6);
+    position: absolute;
+    top: -2rem;
+    left: -8rem;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.in-profile{
+    /* transform: scale(1.5); */
+    display: flex;
+    position: absolute;
+    left: 70px;
+    /* margin-bottom: 30vh; */
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    box-shadow: 0px 25px 30px 3px rgba(251,161,40,0.42);
+}
+
+.funk-icon1{
+   position: absolute;
+   /* top: 5rem; */
+   /* right: 5.5rem; */
+   /* left: 5rem; */
+
+}
+
+.funk-icon2{
+    
+    position: absolute;
+    top: 16rem;
+    /* right: 26rem; */
+ }
+
+ .blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+ }
+
+ /* .blur2{
+    background: #c1f5ff;
+    top: 17rem;
+    width: 21rem;
+    height: 11rem;
+    left: -9rem;
+ } */
+
+ @media screen and (max-width: 480px){
+    .intro{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+
+    .in-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+
+    .in-right .blur{
+        display: none;
+    }
+
+    .funk-icon1{
+        top:-7rem !important;
+    }
+ }

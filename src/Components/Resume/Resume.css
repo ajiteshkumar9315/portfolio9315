@@ -1,0 +1,127 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container{
+    max-width: 950px;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    margin: 0 20px;
+    padding: 40px 50px 40px 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.container .main-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content .list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20%;
+    margin-right: 50px;
+}
+
+.content .list label{
+    height: 60px;
+    font-size: 22px;
+    font-weight: 500; 
+    border-radius: 12px;
+    line-height: 60px;
+    cursor: pointer;
+    padding-left: 25px;
+    color:#333;
+    z-index: 12;
+    transition: all 0.4s ease;
+}
+
+.content .list label:hover{
+    color: #6d50e2;
+}
+
+#education:checked ~ .list .education,
+#programming_skill:checked ~ .list .programming_skill,
+#project:checked ~ .list .project,
+#intrest:checked ~ .list .intrest{
+    color:#fff;
+}
+
+
+.content .indicator{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #6d50e2;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+#education:checked ~ .list .indicator{
+    top: 0;
+}
+
+#programming_skill:checked ~ .list .indicator{
+    top: 60px;
+}
+
+#project:checked ~ .list .indicator{
+    top: 120px;
+}
+
+#intrest:checked ~ .list .indicator{
+    top: 180px;
+}
+
+.container input[type="radio"]{
+    display: none;
+}
+
+.content .content .text-content{
+    width: 80%;
+    height: 100%;
+}
+
+.content .text-content .text{
+    display: none;
+}
+
+.content .text-content .education{
+    display: block ;
+}
+
+#education:checked ~ .text-content .education,
+#programming_skill:checked ~ .text-content .programming_skill,
+#project:checked ~ .text-content .project,
+#intrest:checked ~ .text-content .intrest{
+    display: block;
+}
+
+#programming_skill:checked ~ .text-content .education,
+#project:checked ~ .text-content .education,
+#intrest:checked ~ .text-content .education{
+    display: none;
+}
+
+.content .text-content .title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content .text-content p{
+    text-align: justify;
+}
