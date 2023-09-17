@@ -18,7 +18,7 @@ const Works = () => {
         <span style={{color: darkMode? 'white' : ''}}>Highlits Of</span>
         <span>My Courses</span>
         <span>
-        I have a good foundation of knowledge of c++, HTML, CSS, JS, react.js, node,js,express.js,mongo db <br /> and I am working  on python and improving my knowledge. Though I may be a fresher, I am a very quick learner .
+        I have a good foundation of knowledge of C++, DSA, HTML, CSS, JS, React.js, Node,js, Express.js, Mongo db, <br /> Python, Pandas, Numpy, Matplotlib, MySql, Excel, Tableau, Power Bi and I am working  on Machine Learning <br /> and improving my knowledge. Though I may be a  fresher, I am a very quick learner .
         </span>
         {/* <button className="button s-button">Hire me</button> */}
         <div className="blur s-blur" style={{background: "#ABF1FF94"}}></div>

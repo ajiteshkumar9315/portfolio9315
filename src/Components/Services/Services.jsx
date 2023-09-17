@@ -21,7 +21,7 @@ const Services = () => {
         <span style={{color: darkMode? 'white' : ''}}>My Awsome</span>
         <span>Services</span>
         <span>
-        I will provide an excellent quality of  work in my domains I have a good foundation of knowledge of c++, DSA, <br /> HTML, CSS, JS, react.js, node,js,express.js,mongo db and I am working  on python and improving my <br /> knowledge to provide a better result to my clients. 
+        I will provide an excellent quality of  work in my domains I have a good foundation of knowledge of C++, DSA, <br /> HTML, CSS, JS, React.js, Node,js, Express.js, Mongo db, Python, Pandas, Numpy, Matplotlib, MySql, Excel, <br /> Tableau, Power Bi and I am working  on Machine Learning and improving my <br /> knowledge to provide a better result to my clients. 
         </span>
         <a href={Resume} download>
         <button className="button s-button">Downlode CV</button>

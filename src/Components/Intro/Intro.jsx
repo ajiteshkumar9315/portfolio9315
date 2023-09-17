@@ -24,7 +24,7 @@ const Intro = () => {
             <div className="in-name">
                 <span style={{color: darkMode? 'white': '' }}>Hy! I Am</span>
                 <span>Ajitesh Kumar</span>
-                <span>I am a developer and coder. Enthusiastic about learning and exploring new things. <br /> Committed to self learning and development to achieve good results.</span>
+                <span>I am a developer and analyst. Enthusiastic about learning and exploring new things. <br /> Committed to self learning and development to achieve good results.</span>
             </div>
             <Link to="contact" smooth={true} spy={true}>
             <button className="button in-button">Hire me</button>
@@ -61,7 +61,7 @@ const Intro = () => {
         whileInView={{left:'-2rem'}}
         transition={transition}  
         className="funk-icon2">
-            <FloatingDiv image={thumbup} txt1='Good coding' txt2='Skills'  />
+            <FloatingDiv image={thumbup} txt1='Data' txt2='Analyst    '  />
         </motion.div>
 
         {/* blur divs */}

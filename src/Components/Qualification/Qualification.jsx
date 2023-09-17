@@ -21,7 +21,7 @@ const Qualification = () => {
         <span style={{color: darkMode? 'white' : ''}}>My Qualification</span>
         <span>Details</span>
         <span>
-        I have completed my 10th board from Jhabban Lal Dav Public School and completed my highschool from <br /> Same School after taking non-Medical in highschool. I am currently doing my B.Tech in Computer Science from <br /> Maharaja Agrasen Institute of Technology
+        I have completed my 10th board from Jhabban Lal Dav Public School and completed my high school from <br /> same school after taking non-Medical in high school. I am currently doing my B.Tech in Computer Science from <br /> Maharaja Agrasen Institute of Technology
         </span>
         {/* <button className="button s-button">D</button> */}
         <div className="blur s-blur" style={{background: "#ABF1FF94"}}></div>
